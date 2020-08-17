@@ -32,6 +32,11 @@ body {
   transform: rotate(var(--rotation));
 }
 
+.number > span {
+  display: inline-block;
+  transform: rotate(calc(-1 * var(--rotation)));
+}
+
 .number1 {
   --rotation: 30deg;
 }
